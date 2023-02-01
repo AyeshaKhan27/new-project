@@ -1,0 +1,9 @@
+.head a{
+    
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    
+    
+    padding: 1rem;
+}
