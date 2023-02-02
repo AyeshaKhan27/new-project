@@ -1,0 +1,53 @@
+.tabs {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tabs-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .tabs-list-item {
+    flex: 1;
+    text-align: left;
+    padding-right: 14px;
+  }
+  .tabs-list-item2 {
+    flex: 1;
+    text-align: end;
+    padding-left: 14px;
+  }
+  .tabs-list-link {
+    display: block;
+    padding: 1rem;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .tabs-list-link.active {
+    border-bottom: 2px solid purple;
+  }
+  .tabs-list-link.nonactive {
+    border-bottom: 2px solid rgb(160, 159, 159);
+  }
+  
+  .tabs-content {
+    display: flex;
+  }
+ td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+  
+  
+  
+  .tabs-content-item.active {
+    display: block;
+  }
+  table{
+    overflow-y: scroll;
+  }
+  

@@ -1,0 +1,97 @@
+/* Card.css */
+.top{
+    padding-bottom: 1rem;
+   padding-right: 80px;
+}
+.top-heading{
+    justify-content: center;
+    color: rgb(153, 228, 40);
+    align-items: center;
+}
+h3{
+    color: black;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    
+    height: auto;
+    padding-top: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    overflow: hidden;
+    
+  }
+  
+ .card-title{
+    text-align: center;
+ }
+ .buttons{
+  display: flex;
+  text-align: end;
+  justify-content: end;
+  padding-right: 80px;
+ }
+ .btns{
+  padding: 10px;
+  
+ }
+.btn3{
+  color: white;
+  background-color: rgb(92, 2, 92);
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.btn1{
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border: 1px solid black;
+}
+
+  
+  .card-content {
+    padding-left: 20px;
+    text-align: left;
+    padding-right: 20px;
+  }
+  .cards{
+    padding-bottom: 2rem;
+    overflow: hidden;
+    padding-right: 80px;
+  }
+  @media (max-width: 992px) {
+    
+    .details{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  @media (max-width: 390px) {
+    
+    .details{
+      padding-left: 1px;
+      padding-right: 1px;
+    }
+    .top{
+      padding-right: 5px;
+    }
+    .cards{
+      padding-right: 10px;
+    }
+    .buttons{
+      padding-right: 10px;
+    }
+  }
+
+ 
+  

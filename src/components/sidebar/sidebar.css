@@ -32,7 +32,7 @@ nav {
 }
 
 .nav-link  img{
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 .nav-link a{
     cursor: pointer;
@@ -45,16 +45,16 @@ nav {
 }
 
 a:hover{
-    color: rgb(75, 2, 84);
+    color: purple
 }
 nav a:hover{
-    color: rgb(75, 2, 84);
+    color: purple;
 }
 
 
 .btn2{
    
-    background-color: rgb(75, 2, 84);
+    background-color: purple;
     border: none;
     border-radius: 24px;
     height: 40px;
@@ -73,7 +73,7 @@ header .nav-btn{
     justify-content: end;
     border: none;
     outline: none;
-    color: rgb(75, 2, 84);
+    color: purple;
     visibility: hidden;
     opacity: 0;
     font-size: 1.8rem;
@@ -82,9 +82,31 @@ header .nav-btn{
    text-align: start;
    
 }
+.sidebar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .sidebar .active {
+    background-color: purple;
+    border-radius: 12px;
+    color: white;
+  }
+  
+  
+  
+  
+  
+  
 
 
-@media only screen and (max-width: 990px){
+@media only screen and (max-width: 1060px){
     header .nav-btn{
         visibility: visible;
         opacity: 1;
